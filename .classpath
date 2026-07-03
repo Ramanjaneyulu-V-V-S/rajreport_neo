@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="new prod config1"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/All-MB.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/bcpkix-jdk18on.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/bcprov-jdk18on.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/bcutil-jdk18on.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/bpmutil.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/ci.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/collaboration.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/commons-codec-1.16.0.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/commons-codec-1.18.0.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/commons-lang3.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/configservice-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/configservice-impl.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/dfc.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/DmcRecords.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/dms-client-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/itextpdf-5.5.13.4.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jackson-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jackson-core.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jackson-core-asl.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jackson-databind.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jakarta.activation-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jakarta.servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jakarta.xml.bind-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/json.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-1.2-api-2.23.1.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-1.2-api-2.24.3.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-api-2.23.1.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-api-2.24.3.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-core-2.23.1.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/log4j-core-2.24.3.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/messageArchive.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/messageService.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/subscription.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/workflow.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/xml-apis.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/xtrim-api.jar"/>
+	<classpathentry kind="lib" path="D:/Ramanjaneyulu/Nabard/Code/rajreport/NEO CONFIG/NEO CONFIG/new config/Shared/xtrim-server.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
