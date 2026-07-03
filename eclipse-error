@@ -1,0 +1,27 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] [1m-----------------< [0;36mcom.sedin.rajreport:report-webapp[0;1m >------------------[m
+[INFO] [1mBuilding report-webapp 0.1.0[m
+[INFO]   from pom.xml
+[INFO] [1m--------------------------------[ war ]---------------------------------[m
+[INFO] 
+[INFO] [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36mreport-webapp[0;1m ---[m
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  4.503 s
+[INFO] Finished at: 2026-07-03T14:17:28+05:30
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m on project [36mreport-webapp[m: [1;31mExecution default-clean of goal org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean failed: Plugin org.apache.maven.plugins:maven-clean-plugin:3.2.0 or one of its dependencies could not be resolved:[m
+[ERROR] [1;31m	Could not transfer artifact org.apache.maven.shared:maven-shared-utils:jar:3.3.4 from/to central (https://repo.maven.apache.org/maven2): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target[m
+[ERROR] [1;31m	Could not transfer artifact commons-io:commons-io:jar:2.6 from/to central (https://repo.maven.apache.org/maven2): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target[m
+[ERROR] [1;31m[m
+[ERROR] -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
