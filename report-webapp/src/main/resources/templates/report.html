@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Outward Letter Language Report</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>
+    <h1>Department Correspondence Report</h1>
+    <p class="mock-banner">Showing mock data. Not connected to Documentum/EDMS.</p>
+</header>
+
+<form method="get" th:action="@{/}" class="filters">
+    <label>
+        Department
+        <select name="department">
+            <option th:each="dept : ${departments}"
+                    th:value="${dept}"
+                    th:text="${dept}"
+                    th:selected="${dept == report.department()}"></option>
+        </select>
+    </label>
+    <label>
+        From
+        <input type="date" name="fromDate" th:value="${report.fromDate()}">
+    </label>
+    <label>
+        To
+        <input type="date" name="toDate" th:value="${report.toDate()}">
+    </label>
+    <button type="submit">Generate Report</button>
+</form>
+
+<h2 th:text="${report.department()} + ' — ' + ${report.fromDate()} + ' to ' + ${report.toDate()}"></h2>
+
+<section class="results">
+    <h3>Status of reply in Hindi to the letters received in Hindi</h3>
+    <table>
+        <tbody>
+        <tr>
+            <td>(a)</td>
+            <td>Total no. of letters received in Hindi</td>
+            <td th:text="${report.hindiReplyStatus().receivedHindi()}"></td>
+        </tr>
+        <tr>
+            <td>(b)</td>
+            <td>Out of the above how many were replied to in Hindi</td>
+            <td th:text="${report.hindiReplyStatus().repliedHindi()}"></td>
+        </tr>
+        <tr>
+            <td>(c)</td>
+            <td>Out of the above (a) how many were replied to in English</td>
+            <td th:text="${report.hindiReplyStatus().repliedEnglish()}"></td>
+        </tr>
+        <tr>
+            <td>(d)</td>
+            <td>Out of the above (a) how many letters were not required to be replied to</td>
+            <td th:text="${report.hindiReplyStatus().notRequiredToReply()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="results">
+    <h3>Status of letters received in English &amp; replied to in Hindi (applicable to offices located in 'A' &amp; 'B' regions)</h3>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th th:each="status : ${report.englishReplyStatuses()}" th:text="${status.region()}"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>No. of letters received in English</td>
+            <td th:each="status : ${report.englishReplyStatuses()}" th:text="${status.receivedEnglish()}"></td>
+        </tr>
+        <tr>
+            <td>Out of these how many were replied to in Hindi</td>
+            <td th:each="status : ${report.englishReplyStatuses()}" th:text="${status.repliedHindi()}"></td>
+        </tr>
+        <tr>
+            <td>Out of these how many were replied to in English</td>
+            <td th:each="status : ${report.englishReplyStatuses()}" th:text="${status.repliedEnglish()}"></td>
+        </tr>
+        <tr>
+            <td>Out of these how many letters were not required to be replied to</td>
+            <td th:each="status : ${report.englishReplyStatuses()}" th:text="${status.notRequiredToReply()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="results">
+    <h3>Details of original letters (including Emails) issued</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>Region</th>
+            <th>Hindi / Bilingual</th>
+            <th>English</th>
+            <th>Total</th>
+            <th>% Hindi / Bilingual</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="tier : ${report.outwardLetters()}">
+            <td th:text="${tier.tier()}"></td>
+            <td th:text="${tier.hindiOrBilingual()}"></td>
+            <td th:text="${tier.english()}"></td>
+            <td th:text="${tier.total()}"></td>
+            <td th:text="${#numbers.formatDecimal(tier.hindiPercentage(), 1, 2)} + '%'"></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>
