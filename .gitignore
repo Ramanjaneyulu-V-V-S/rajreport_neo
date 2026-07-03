@@ -1,0 +1,5 @@
+# Eclipse workspace metadata (local IDE state, not project source)
+.metadata/
+
+# Runtime lock files
+documentum/*.lock
